@@ -1,0 +1,21 @@
+.Tabs {
+    list-style-type:  none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.Tabs li {
+    flex-grow: 1;
+}
+
+.Tabs button {
+    width: 100%;
+}
+
+.Tabs .active-tab {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+}
